@@ -1,8 +1,110 @@
-<!DOCTYPE >
-<html>
-    <body>
-        <head>
-            <title>my last web page</title>
-        </head>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Digital Marketing Agency</title>
+    <link rel="stylesheet" href="sample.css">
+    <script src="sample.js" defer></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <h1>Your Agency Name</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to Your Digital Marketing Agency</h1>
+                <p>We help businesses grow their online presence.</p>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p>Describe your services here.</p>
+            <div class="services-grid">
+                <div class="service-item">
+                    <i class="fas fa-chart-line fa-3x"></i>
+                    <h3>SEO Optimization</h3>
+                    <p>Description of SEO services...</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-users fa-3x"></i>
+                    <h3>Social Media Marketing</h3>
+                    <p>Description of social media services...</p>
+                </div>
+                <div class="service-item">
+                    <i class="fas fa-envelope-open-text fa-3x"></i>
+                    <h3>Email Marketing</h3>
+                    <p>Description of email marketing services...</p>
+                </div>
+                <!-- Add more services as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <h2>Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <!-- Showcase your portfolio items here -->
+                <div class="portfolio-item">
+                    <img src="portfolio-item1.jpg" alt="Portfolio Item">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <p>Description of the project...</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="portfolio-item2.jpg" alt="Portfolio Item">
+                    <div class="overlay">
+                        <h3>Project Title</h3>
+                        <p>Description of the project...</p>
+                        <a href="#" class="btn btn-secondary">View Details</a>
+                    </div>
+                </div>
+                <!-- Add more portfolio items -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Fill out the form below to get in touch with us.</p>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Your Agency Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Optional JavaScript for interactivity -->
+</body>
 </html>
